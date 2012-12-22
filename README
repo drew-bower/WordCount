@@ -1,0 +1,7 @@
+20121222
+
+These files colletively perform the "hello world" of map reduce.
+
+mapper.py: from standard in, parses out words into keys and values, prints to standard out
+reducer.py: takes resuls from mapper (at command line needs to be sorted), and summarizes the word count
+chapter1.txt: a random text file containing words to summarize. 
